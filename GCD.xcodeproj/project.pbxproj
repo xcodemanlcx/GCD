@@ -14,6 +14,9 @@
 		18248DC31A36CCBD00F0CA16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18248DC21A36CCBD00F0CA16 /* Images.xcassets */; };
 		18248DC61A36CCBD00F0CA16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18248DC41A36CCBD00F0CA16 /* LaunchScreen.xib */; };
 		18248DD21A36CCBD00F0CA16 /* GCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18248DD11A36CCBD00F0CA16 /* GCDTests.m */; };
+		1839312A1A385DBA00A1DBB9 /* SourcesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183931291A385DBA00A1DBB9 /* SourcesViewController.m */; };
+		185B57331AAED54300CBB047 /* runloop运行图.png in Resources */ = {isa = PBXBuildFile; fileRef = 185B57321AAED54300CBB047 /* runloop运行图.png */; };
+		185B57351AAED54800CBB047 /* URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B57341AAED54800CBB047 /* URL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		18248DCB1A36CCBD00F0CA16 /* GCDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18248DD01A36CCBD00F0CA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18248DD11A36CCBD00F0CA16 /* GCDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTests.m; sourceTree = "<group>"; };
+		183931281A385DBA00A1DBB9 /* SourcesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourcesViewController.h; sourceTree = "<group>"; };
+		183931291A385DBA00A1DBB9 /* SourcesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourcesViewController.m; sourceTree = "<group>"; };
+		185B57321AAED54300CBB047 /* runloop运行图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "runloop运行图.png"; sourceTree = "<group>"; };
+		185B57341AAED54800CBB047 /* URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URL.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +92,10 @@
 				18248DBA1A36CCBD00F0CA16 /* AppDelegate.m */,
 				18248DBC1A36CCBD00F0CA16 /* ViewController.h */,
 				18248DBD1A36CCBD00F0CA16 /* ViewController.m */,
+				183931281A385DBA00A1DBB9 /* SourcesViewController.h */,
+				183931291A385DBA00A1DBB9 /* SourcesViewController.m */,
+				185B57321AAED54300CBB047 /* runloop运行图.png */,
+				185B57341AAED54800CBB047 /* URL.m */,
 				18248DBF1A36CCBD00F0CA16 /* Main.storyboard */,
 				18248DC21A36CCBD00F0CA16 /* Images.xcassets */,
 				18248DC41A36CCBD00F0CA16 /* LaunchScreen.xib */,
@@ -201,6 +212,7 @@
 			files = (
 				18248DC11A36CCBD00F0CA16 /* Main.storyboard in Resources */,
 				18248DC61A36CCBD00F0CA16 /* LaunchScreen.xib in Resources */,
+				185B57331AAED54300CBB047 /* runloop运行图.png in Resources */,
 				18248DC31A36CCBD00F0CA16 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +232,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				18248DBE1A36CCBD00F0CA16 /* ViewController.m in Sources */,
+				1839312A1A385DBA00A1DBB9 /* SourcesViewController.m in Sources */,
 				18248DBB1A36CCBD00F0CA16 /* AppDelegate.m in Sources */,
+				185B57351AAED54800CBB047 /* URL.m in Sources */,
 				18248DB81A36CCBD00F0CA16 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +311,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -332,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -412,6 +426,7 @@
 				18248DD71A36CCBD00F0CA16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18248DD81A36CCBD00F0CA16 /* Build configuration list for PBXNativeTarget "GCDTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +435,7 @@
 				18248DDA1A36CCBD00F0CA16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
