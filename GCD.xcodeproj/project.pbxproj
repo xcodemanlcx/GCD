@@ -16,7 +16,6 @@
 		18248DD21A36CCBD00F0CA16 /* GCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18248DD11A36CCBD00F0CA16 /* GCDTests.m */; };
 		1839312A1A385DBA00A1DBB9 /* SourcesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183931291A385DBA00A1DBB9 /* SourcesViewController.m */; };
 		185B57331AAED54300CBB047 /* runloop运行图.png in Resources */ = {isa = PBXBuildFile; fileRef = 185B57321AAED54300CBB047 /* runloop运行图.png */; };
-		185B57351AAED54800CBB047 /* URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B57341AAED54800CBB047 /* URL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +45,6 @@
 		183931281A385DBA00A1DBB9 /* SourcesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourcesViewController.h; sourceTree = "<group>"; };
 		183931291A385DBA00A1DBB9 /* SourcesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourcesViewController.m; sourceTree = "<group>"; };
 		185B57321AAED54300CBB047 /* runloop运行图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "runloop运行图.png"; sourceTree = "<group>"; };
-		185B57341AAED54800CBB047 /* URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URL.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +93,6 @@
 				183931281A385DBA00A1DBB9 /* SourcesViewController.h */,
 				183931291A385DBA00A1DBB9 /* SourcesViewController.m */,
 				185B57321AAED54300CBB047 /* runloop运行图.png */,
-				185B57341AAED54800CBB047 /* URL.m */,
 				18248DBF1A36CCBD00F0CA16 /* Main.storyboard */,
 				18248DC21A36CCBD00F0CA16 /* Images.xcassets */,
 				18248DC41A36CCBD00F0CA16 /* LaunchScreen.xib */,
@@ -234,7 +231,6 @@
 				18248DBE1A36CCBD00F0CA16 /* ViewController.m in Sources */,
 				1839312A1A385DBA00A1DBB9 /* SourcesViewController.m in Sources */,
 				18248DBB1A36CCBD00F0CA16 /* AppDelegate.m in Sources */,
-				185B57351AAED54800CBB047 /* URL.m in Sources */,
 				18248DB81A36CCBD00F0CA16 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

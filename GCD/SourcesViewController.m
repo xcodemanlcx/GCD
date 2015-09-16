@@ -55,6 +55,14 @@
  使用原理：把block任务提交给事件源，事件源的单元任务完成一个，如果主线程有空，在执行把block任务提交到主线程队列前，联结事件源的相关的事件，合并已完成工作单元的数据信息，则更新UI进度条；如果主线程
  */
 
+/*
+ http://img.app.d1cm.com/news/img/201312021616153719.jpg",
+ http://img1.xcarimg.com/b63/s2515/m_20110718163332702074.jpg
+ http://img.app.d1cm.com/news/img/201312021610065708.jpg
+ 
+ http://dl_dir.qq.com/qqfile/qq/QQforMac/QQ_V2.4.1.dmg
+ */
+
 #import "SourcesViewController.h"
 
 @interface SourcesViewController ()
